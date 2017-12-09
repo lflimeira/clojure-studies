@@ -1,0 +1,6 @@
+clojure:
+  image: clojure
+  command: lein run
+  volumes:
+    - ./clojure-noob:/app
+  working_dir: /app
