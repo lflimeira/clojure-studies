@@ -4,3 +4,10 @@ clojure:
   volumes:
     - ./clojure-noob:/app
   working_dir: /app
+
+repl:
+  image: clojure
+  command: lein repl
+  volumes:
+    - ./clojure-noob:/app
+  working_dir: /app
